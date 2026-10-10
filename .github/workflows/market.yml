@@ -2,7 +2,7 @@ name: Piyasa verisi
 on:
   schedule:
     - cron: '30 6 * * 1-5'
-    - cron: '30 15 * * 1-5'
+    - cron: '*/30 7-15 * * 1-5'
   workflow_dispatch:
 permissions:
   contents: write
